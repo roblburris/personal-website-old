@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects</title>
+				<link rel="stylesheet" type="text/css" href="/assets/style.css">
+				<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+        <% include partialtemplates/header.ejs %>
+
+        <h1>
+            My Side Projects
+        </h1>
+    </head>
+    <body>
+        <p>
+            Here you'll find a collection of the various projects that are completed or currently in development. Each project features a brief description
+            and embedded code straight from the appropriate GitHub repository & source file.
+        </p>
+        <h3> <u> Project 1: Developing a Personal Website </u> </h3>
+        <p>
+            My website (the one you&apos;re on right now) was built using Node.js for the backend. I used Express and EJS for routing and embedding the
+            frontend elements. Overall, building this website was a pretty simple project that helped me learn more about full stack web development and
+            the many processes that go into building a web application.
+        </p>
+        <button type="button" class="collapsible">View Main Node.js Code</button>
+        <div class="content">
+            <script src="http://gist-it.appspot.com/https://github.com/roblburris/Personal-Website/blob/master/main.js" slice=0:5></script>
+        </div>
+
+
+
+
+
+
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+            	coll[i].addEventListener("click", function() {
+            		this.classList.toggle("active");
+            		var content = this.nextElementSibling;
+            		if (content.style.display === "block") {
+            			content.style.display = "none";
+            		} else {
+            			content.style.display = "block";
+            		}
+            	});
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+h1 {
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 40px;
+border-bottom: 1px solid #57b1dc;
+margin-top: 30px;
+}
+
+body {
+background-color: #EEFCFF;
+margin: 0 15%;
+text-align: left;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.topnav {
+background-color: #8ADCF0;
+overflow: hidden;
+}
+
+.topnav a {
+float: left;
+color: #462d80;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #FABF40;
+color: black;
+}
+
+.collapsible {
+background-color: #8ADCF0;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font color: "8ADCF0";
+font-size: 17px;
+}
+.active, .collapsible:hover {
+background-color: #FABF40;
+}
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
+}
+
+.collapsible:after {
+content: '\02795';
+font-size: 13px;
+color: white;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2796";
+}
