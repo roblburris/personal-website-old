@@ -15,6 +15,14 @@ font-size: 20px;
 font-family: 'Montserrat', sans-serif;
 }
 
+image {
+  float: left;
+  margin: 0px 15px 15px 0px;
+  border-radius: 50%;"
+  width: 180;
+  height: 240;
+}
+
 .topnav {
 background-color: #8ADCF0;
 overflow: hidden;
